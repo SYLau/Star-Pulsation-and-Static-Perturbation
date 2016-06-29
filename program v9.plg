@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: program v9 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\LAUSHU~1\AppData\Local\Temp\RSP935E.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt01_ex2.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\o_puls_soln_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt03_ex1.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\EOS.F90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_eqt.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_match.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_opt01_P01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_opt01_P07.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\settings_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_hyd.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt02.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt03.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt04.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt05.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt06.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_grid_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_grid_opt02.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_grid_opt03.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_grid_opt04.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt01_ex1.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt02.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt02.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt04.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt04.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt07.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt08.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\moI_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\global_fcn.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt02_ex1.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt03.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt03.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt05.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt06.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt05_ex1.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt05.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt09.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\library\metric_var.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_match_P02.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_opt01_P05.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_opt01_P08.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt02.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\veri_soln_opt01.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\main.f90"
+"F:\MPhil\F_NonRadialOsc_imode\v10 Full\program v9.f90"
+]
+Creating temporary file "C:\Users\LAUSHU~1\AppData\Local\Temp\RSP935F.tmp" with contents
+[
+kernel32.lib imsl.lib imsls_err.lib imslmpistub.lib imsl.lib imsls_err.lib imslmpistub.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/program v9.pdb" /debug /machine:I386 /out:"Debug/program v9.exe" /pdbtype:sept 
+".\Debug\Derivatives.obj"
+".\Debug\Eigenvalues_Eigenvectors.obj"
+".\Debug\Fitting.obj"
+".\Debug\Format_IO.obj"
+".\Debug\FRead.obj"
+".\Debug\FWrite.obj"
+".\Debug\Hydrostatic Functions.obj"
+".\Debug\Interpolation.obj"
+".\Debug\metric_var.obj"
+".\Debug\Minimum_Maximum.obj"
+".\Debug\RK4_Set.obj"
+".\Debug\Root_Finding.obj"
+".\Debug\Verify.obj"
+".\Debug\settings_opt01.obj"
+".\Debug\EOS.OBJ"
+".\Debug\stat_profile_hyd.obj"
+".\Debug\stat_profile_opt01.obj"
+".\Debug\stat_profile_opt02.obj"
+".\Debug\stat_profile_opt03.obj"
+".\Debug\stat_profile_opt04.obj"
+".\Debug\stat_profile_opt05.obj"
+".\Debug\stat_profile_opt06.obj"
+".\Debug\puls_grid_opt01.obj"
+".\Debug\puls_grid_opt02.obj"
+".\Debug\puls_grid_opt03.obj"
+".\Debug\puls_grid_opt04.obj"
+".\Debug\eigen_freq_opt01.obj"
+".\Debug\eigen_freq_opt01_ex1.obj"
+".\Debug\eigen_freq_opt01_ex2.obj"
+".\Debug\eigen_freq_opt02.obj"
+".\Debug\eigen_freq_opt02_ex1.obj"
+".\Debug\puls_eqt_solve_opt01.obj"
+".\Debug\puls_eqt_solve_opt02.obj"
+".\Debug\puls_eqt_solve_opt03.obj"
+".\Debug\puls_eqt_solve_opt04.obj"
+".\Debug\puls_eqt_solve_opt05.obj"
+".\Debug\puls_eqt_solve_opt06.obj"
+".\Debug\puls_eqt_solve_opt07.obj"
+".\Debug\puls_eqt_solve_opt08.obj"
+".\Debug\puls_eqt_solve_opt09.obj"
+".\Debug\puls_eqt_set_opt01.obj"
+".\Debug\puls_eqt_set_opt02.obj"
+".\Debug\puls_eqt_set_opt03.obj"
+".\Debug\puls_eqt_set_opt03_ex1.obj"
+".\Debug\puls_eqt_set_opt04.obj"
+".\Debug\puls_eqt_set_opt05.obj"
+".\Debug\puls_eqt_set_opt05_ex1.obj"
+".\Debug\o_puls_soln_opt01.obj"
+".\Debug\veri_soln_opt01.obj"
+".\Debug\love_eqt.obj"
+".\Debug\love_match.obj"
+".\Debug\love_match_P02.obj"
+".\Debug\love_opt01_P01.obj"
+".\Debug\love_opt01_P05.obj"
+".\Debug\love_opt01_P07.obj"
+".\Debug\love_opt01_P08.obj"
+".\Debug\moI_opt01.obj"
+".\Debug\global_fcn.obj"
+".\Debug\global_var.obj"
+".\Debug\main.obj"
+".\Debug\program v9.obj"
+]
+Creating command line "link.exe @C:\Users\LAUSHU~1\AppData\Local\Temp\RSP935F.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt01_ex2.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\o_puls_soln_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt03_ex1.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\EOS.F90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_eqt.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_match.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_opt01_P01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_opt01_P07.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\settings_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_hyd.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt02.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt03.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt04.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt05.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\stat_profile_opt06.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_grid_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_grid_opt02.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_grid_opt03.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_grid_opt04.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt01_ex1.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt02.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt02.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt04.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt04.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt07.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt08.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\moI_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\global_fcn.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt02_ex1.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt03.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt03.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt05.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt06.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt05_ex1.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_set_opt05.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\puls_eqt_solve_opt09.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\library\metric_var.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_match_P02.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_opt01_P05.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\love_opt01_P08.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\eigen_freq_opt02.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\veri_soln_opt01.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\main.f90
+F:\MPhil\F_NonRadialOsc_imode\v10 Full\program v9.f90
+Linking...
+
+
+
+<h3>Results</h3>
+program v9.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
